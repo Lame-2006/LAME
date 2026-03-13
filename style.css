@@ -1,7 +1,7 @@
 * Reset default browser spacing */
 body {
    margin: 0;
-   font-family:Arial, sans-serif;
+   font-family: Arial, sans-serif;
    background-color: #FFC0CB;
 }
  
@@ -10,7 +10,7 @@ header {
     background-color: #FF1493;
     color: white;
     padding: 20px;
-    text-align:center;
+    text-align: center;
 }
  
 /*Navigation */
@@ -27,7 +27,7 @@ nav a {
     font-weight: bold;
 }
  
-nav a:hover {
+nav a: hover {
     text-decoration: underline;
 }
  
