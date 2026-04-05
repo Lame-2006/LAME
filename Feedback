@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <title>Maezanisi Enterprise Loans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--header section-->
+<header>
+   <h1>Maezanisi Eterprise Loans</h1>
+   <p>We offer only the best services</p>
+</header>
+<!--navigation-->
+<nav>
+   <a href="index.html">Home</a>
+   <a href="about.html">About Us</a>
+   <a href="contact.html">Contacts</a>
+   <a href="get a loan with us.html">Get a loan with us</a>
+   <a href="available services providers.html">Available services providers</a>
+   <a href="methods of payments.html">Methods of payments</a>
+   <a href="frequently asked questions.html">FAQs</a>  <a href="feedback.html">Feedback</a>
+</nav>
 
