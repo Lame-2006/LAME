@@ -25,4 +25,12 @@
 
 <!_ _main content_ _>
     <content>
-    
+< div>
+     <h1>Loan repayment policies</h1>
+     <p>This are the rules and guidelines that define how a borrower repays their loan.</p>
+</div>
+
+<div>
+    <h3>Repayment schedule policy</h3>
+    <p>Monthly repayments-this type of repayment policy is for individuals because they are </p>
+</div>
