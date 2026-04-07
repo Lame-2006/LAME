@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FAQ - Loan Business</title>
+</head>
+<body>
 
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+        <summary>Who can apply for a loan?</summary>
+        <p>Anyone above 18 years with a valid ID and stable income can apply.</p>
+    </details>
+
+    <details>
+        <summary>How long does approval take?</summary>
+        <p>Approval usually takes 24 to 48 hours.</p>
+    </details>
+
+    <details>
+        <summary>What happens if I miss a payment?</summary>
+        <p>Late payments may result in penalties.</p>
+    </details>
+
+    <details>
+        <summary>What documents are required?</summary>
+        <p>Valid ID, proof of income, and bank statements are required.</p>
+    </details>
+
+</body>
+</html>
