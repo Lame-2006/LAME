@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UFT-8">
+   <title>Maezanisi Enterprise Loans</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header section-->
+<header>
+   <h1>Maezanisi Eterprise Loans</h1>
+   <p>We offer only the best services</p>
+</header>
+<!--navigation-->
+<nav>
+  <a href="index.html">Home</a>
+   <a href="aboutus.html">About Us</a>
+   <a href="contacts.html">Contacts</a>
+   <a href="documentation.html">Documentation</a>
+   <a href="availableservicesproviders.html">Available services providers</a>
+   <a href="methodsofpayments.html">Methods of payments</a>   
+   <a href="Frequentlyaskedquestions.html">FAQs</a>
+   <a href="feedback.html">Feedback</a>
+   <a href="footersection.html">Footer section</a>
+</nav>
+<!--footer section-->
+<footer class="footer">
+    <script>
+  const faqs = document.querySelectorAll(".faq-question");
+
+  faqs.forEach(button => {
+    const answer = button.nextElementSibling;
+
+    // Set initial height for smooth transition
+    answer.style.maxHeight = "0px";
+    answer.style.overflow = "hidden";
+    answer.style.transition = "max-height 0.4s ease, padding 0.4s ease";
+
+    button.addEventListener("click", () => {
+      if (answer.style.maxHeight === "0px") {
+        answer.style.maxHeight = answer.scrollHeight + 20 + "px"; // 20px extra padding
+        answer.style.padding = "10px 15px";
+      } else {
+        answer.style.maxHeight = "0px";
+        answer.style.padding = "0 15px";
+      }
+    });
+  });
+    </script>
+</footer>
+  </body>
+
+

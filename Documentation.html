@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UFT-8">
+   <title>Maezanisi Enterprise Loans</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header section-->
+<header>
+   <h1>Maezanisi Eterprise Loans</h1>
+   <p>We only offer the best services</p>
+</header>
+
+<!--navigation-->
+<nav>
+   <a href="index.html">Home</a>
+   <a href="aboutus.html">About Us</a>
+   <a href="contacts.html">Contacts</a>
+   <a href="documentation.htlm">Documentation</a>
+   <a href="availableservicesproviders.html">Available serices providers</a> 
+   <a href="methodsofpayments.html">Methods of payment</a>
+   <a href="frequentlyaskedquestions.html">FAQs</a>
+   <a href="feedback.html">feedback</a>
+   <a href="footersection.html">Footer section</a>
+</nav>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      width: 100%;
+      background: #0078d7;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+  <div class="form-container">
+    <h2>Loan Application Form</h2>
+    <form id="loanForm">
+      <label for="fullName">Full Name</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="amount">Loan Amount</label>
+      <input type="number" id="amount" name="amount" required>
+
+      <label for="purpose">Purpose of Loan</label>
+      <textarea id="purpose" name="purpose" rows="3" required></textarea>
+
+      <label for="employment">Employment Status</label>
+      <select id="employment" name="employment" required>
+        <option value="">--Select--</option>
+        <option value="employed">Employed</option>
+        <option value="self-employed">Self-Employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="student">Student</option>
+      </select>
+
+      <label for="income">Monthly Income</label>
+      <input type="number" id="income" name="income" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('loanForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Your loan application has been submitted successfully!');
+      // Here you would typically send the data to your server using fetch() or AJAX
+    });
+  </script>
+</body>
+
