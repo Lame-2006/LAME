@@ -1,62 +1,68 @@
-* Reset default browser spacing */
+/* Global Styles */
 body {
-   margin: 0;
-   font-family: Arial, sans-serif;
-   background-color: #FFC0CB;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f9f4; /* light background for readability */
+  color: #000000; /* black text for clarity */
+  margin: 0;
+  padding: 0;
 }
- 
-/*Header */
+
+/* Header */
 header {
-    background-color: #FF1493;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background: linear-gradient(90deg, #003366, #006400); /* deep blue to dark green */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
- 
-/*Navigation */
+
+/* Navigation Bar */
 nav {
-    background-color: #000000;
-    padding: 10px;
-    text-align: center;
+  background-color: #000000; /* solid black for contrast */
+  display: flex;
+  justify-content: center;
 }
- 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+  color: #00cc66; /* bright green links */
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
- 
-nav a hover {
-    text-decoration: underline;
+nav a:hover {
+  background-color: #003366; /* blue hover effect */
+  color: #ffffff;
 }
- 
-/* Main content */
-main {
-   padding: 20px;
+
+/* Buttons */
+button {
+  background-color: #006400; /* dark green */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
- 
+button:hover {
+  background-color: #003366; /* switch to blue on hover */
+}
+
 /* Sections */
 section {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  padding: 40px;
+  border-bottom: 1px solid #cccccc;
 }
- 
-/* Products */
-.product {
-     border: 1px solid #ccc;
-     padding: 10px;
-     margin-top: 10px;
-     border-radius: 5px;
+section h2 {
+  color: #003366; /* blue headings */
 }
- 
+section p {
+  color: #333333; /* dark gray for readability */
+}
+
 /* Footer */
 footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: #000000;
+  color: #00cc66; /* green text for footer */
+  text-align: center;
+  padding: 20px;
 }
- 
