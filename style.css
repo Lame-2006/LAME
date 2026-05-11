@@ -9,28 +9,30 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #003366, #006400); /* deep blue to dark green */
-  color: #ffffff;
+  background: #2d6cdf;
+  color: white;
   padding: 20px;
   text-align: center;
 }
 
-/* Navigation Bar */
-nav {
-  background-color: #000000; /* solid black for contrast */
-  display: flex;
-  justify-content: center;
-}
-nav a {
-  color: #00cc66; /* bright green links */
-  padding: 14px 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover {
-  background-color: #003366; /* blue hover effect */
-  color: #ffffff;
-}
+
+
+/* Navigation */
+        nav {
+            background-color: #1b4fbf;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
 
 /* Buttons */
 button {
@@ -66,3 +68,74 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #2d6cdf;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #1b4fbf;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form Container */
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2d6cdf;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1b4fbf;
+        }
